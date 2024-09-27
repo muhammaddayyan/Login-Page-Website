@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa; /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.log-sect {
+    flex: 1;
+    padding: 40px;
+    max-width: 500px;
+}
+
+.log-sect h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+
+.log-sect p {
+    margin-bottom: 30px;
+    color: #888;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.opt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.opt label {
+    /* display: flex; */
+    align-items: center;
+}
+
+.opt input {
+    margin-right: 5px;
+}
+
+a {
+    color: #ff6666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-signin {
+    background-color: #ff6666;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-signin:hover {
+    background-color: #e65555;
+}
+
+.google-signin {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-google {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 722px;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.btn-google img {
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup a {
+    color: #ff6666;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+/* Right Section: Image */
+.img-sect {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sect img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
